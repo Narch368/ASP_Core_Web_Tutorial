@@ -13,12 +13,20 @@ namespace ASP_Core_Web_Tutorial.Controllers
             _logger = logger;
         }
 
+        //https://localhost:5001/Home/Index
         public IActionResult Index()
         {
             return View();
         }
 
+        //https://localhost:5001/Home/Privacy
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        //https://localhost:5001/Home/Biplab
+        public IActionResult Biplab()
         {
             return View();
         }
